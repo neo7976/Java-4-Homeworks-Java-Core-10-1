@@ -23,9 +23,9 @@ public class JvmComprehension {
 
 ## ClassLoader'ы
 
-- В исходном коде идет анализ классов, обнаруживаем новый класс `JvmComprehension` и на этапах Application ClassLoader, Platform ClassLoader, Bootstrap ClassLoader подсистема загрузчиков классов его найдет и подгрузит.
+- В исходном коде идет анализ классов, обнаруживаем новый класс `JvmComprehension` и на этапах Application ClassLoader, Platform ClassLoader, Bootstrap ClassLoader подсистема загрузчиков классов его найдет и подгрузит;
 
-- Дальше происходит иниициализация класса: выполняются static инициализаторы
+- Дальше происходит иниициализация класса: выполняются static инициализаторы.
 
 ## [Этапы в области памяти](https://github.com/neo7976/Java-4-Homeworks-Java-Core-10-1/blob/main/file/%D0%94%D0%97%20-%20%D0%B2%D1%81%D0%B5%20%D1%8D%D1%82%D0%B0%D0%BF%D1%8B.pdf)
 
